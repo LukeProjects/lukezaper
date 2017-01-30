@@ -3,7 +3,7 @@
   $your_date = strtotime("2017-02-10");
   $datediff = $now - $your_date;
 
-  const DAYSTODATE = floor($datediff / (60 * 60 * 24));
+  $daysToDate = floor($datediff / (60 * 60 * 24));
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,7 +31,7 @@ body, html {height: 100%}
   <div class="w3-display-middle">
     <h1 class="w3-jumbo w3-animate-top">COMING SOON TO LUKELANDIA</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center"><?=DAYSTODATE?> days left</p>
+    <p class="w3-large w3-center"><?=$daysToDate?> days left</p>
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
     Owned by <a href="http://lukewon.com" target="_blank">LukeWon.com</a>
