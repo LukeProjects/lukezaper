@@ -16,7 +16,7 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('/w3images/forestbridge.jpg');
+    background-image: url('http://lukewon.com/LukeWonLogo.gif');
     min-height: 100%;
     background-position: center;
     background-size: cover;
