@@ -2,8 +2,8 @@
   $now = time(); // or your date as well
   $your_date = strtotime("2017-02-10");
   $datediff = $now - $your_date;
-
   $daysToDate = floor($datediff / (60 * 60 * 24));
+  $daysToDate = ltrim($daysToDate, '-');
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +16,7 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('http://lukewon.com/LukeWonLogo.gif');
+    background-image: url('https://drscdn.500px.org/photo/78473191/m%3D900/6f854b85adc9601cc64f5bdf62be181f');
     min-height: 100%;
     background-position: center;
     background-size: cover;
