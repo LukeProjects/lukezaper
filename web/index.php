@@ -29,7 +29,7 @@ body, html {height: 100%}
     LukeZaper
   </div>
   <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON TO LUKELANDIA</h1>
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
     <p class="w3-large w3-center"><?=$daysToDate?> days left</p>
   </div>
