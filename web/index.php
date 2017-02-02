@@ -1,6 +1,6 @@
 <?php
   $now = time(); // or your date as well
-  $your_date = strtotime("2017-02-10");
+  $your_date = strtotime("2017-02-03");
   $datediff = $now - $your_date;
   $daysToDate = floor($datediff / (60 * 60 * 24));
   $daysToDate = ltrim($daysToDate, '-');
